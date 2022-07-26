@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: hsl(216, 12%, 8%);
+    font-family: Overpass, sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    background-color: hsl(213, 19%, 18%);
+    width: 421px;
+    height: 416px;
+    border-radius: 25px;
+
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 25px;
+    background-color: hsl(216, 12%, 54%, 0.2);
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container h1 {
+    padding-left: 25px;
+    color: white;
+    font-weight: 400;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    padding-left: 25px;
+    padding-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 22px;
+    font-size: 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.rate {
+    border-style: none;
+    border-radius: 100%;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: hsla(216, 12%, 54%, 0.205);
+    color: hsl(217, 12%, 63%);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.bottom {
+    padding-top: 40px;
+    padding-left: 35px;
+    padding-right: 40px;
+}
+
+.submit {
+    display: block;
+    padding-left: 38%;
+    padding-right: 38%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: hsl(25, 97%, 53%);
+    border-style: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.thank-you-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.thank-you {
+    background-color: hsl(213, 19%, 18%);
+    width: 421px;
+    height: 416px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.thank-you h1 {
+    color: white;
+    padding-top: 25px;
+}
+
+h6 {
+    font-size: 15px;
+    background-color: hsla(216, 12%, 54%, 0.205);
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: hsl(25, 97%, 53%);
+    margin-top: 15px;
+}
+
+
+
+
+
+.rate:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.rate:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(213, 19%, 18%);
+}
+
+.submit:hover {
+
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
